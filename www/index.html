@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Storage app</title>
+    </head>
+    <body>
+        <div class="app">
+            <h1>Login</h1>
+            <form action="index.html">
+                <p><label>Login : <input type="email" id="login" /></label></p>
+                <p><label>Password : <input type="password" id="password" /></label></p>
+                <p><label><input type="checkbox" id="keep" /> Keep login information</label></p>
+                <p><button id="submit" type="button">Login</button></p>
+            </form>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
